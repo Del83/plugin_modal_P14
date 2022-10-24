@@ -1,4 +1,3 @@
-import "@babel/polyfill";
 import "./modal.css"
 
 /**
@@ -7,7 +6,6 @@ import "./modal.css"
 */
 export default function Modal ( { displayModal, setDisplayModal, messageModal}) {
 
- 
   const handleDisplay = () => {setDisplayModal(!displayModal)};
 
     return (

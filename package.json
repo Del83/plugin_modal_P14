@@ -1,5 +1,5 @@
 {
-  "name": "plugin_modal_p14",
+  "name": "@del83/plugin_modal_p14",
   "description": "simple modal component",
   "author": "del83",
   "version": "0.1.0",
@@ -9,6 +9,10 @@
     "dist",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://del83.github.io/plugin_modal_P14/"
+  },
   "keywords": [
     "modal",
     "react",
@@ -56,7 +60,6 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-
+    "@babel/polyfill": "^7.12.1"
   }
 }
