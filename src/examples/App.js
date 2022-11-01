@@ -10,21 +10,29 @@ export default function App() {
       setDisplayModal(false);
       return;
     } else {
-      setMessageModal("hello !!");
+      setMessageModal("The modal window is open");
       setDisplayModal(true);
       return;
     }
   };
 
   return (
-    <div style={{ width: 640, margin: "15px auto" }}>
-      <h1>Hello React</h1>
-      <button onClick={handleModal}>Open Modal</button>
-      <Modal
-        displayModal={displayModal}
-        setDisplayModal={setDisplayModal}
-        messageModal={messageModal}
-      />
+    <div style={{ width: 640, marginTop: "45px" }}>
+      <header>
+        <h1>react-modal</h1>
+        <h2>An accessible React modal dialog component</h2>
+      </header>
+      <main >
+        <button className="button-open" onClick={handleModal}>Open Modal</button>
+        <Modal
+          displayModal={displayModal}
+          setDisplayModal={setDisplayModal}
+          messageModal={messageModal}
+          />
+      </main>
+      <footer>
+        <p>Copyright © 2022 - Plugin created by Delphine Pennehouat</p> 
+      </footer>
     </div>
   );
 }

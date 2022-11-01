@@ -1,17 +1,26 @@
-import "./modal.css";
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Modal;
+require("./modal.css");
 
 var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard").default;
 var _react = _interopRequireWildcard(require("react"));
+
 /**
 * Modal component
+* @param {bool} display modal display
+* @param {func} setDisplay modal state change
+* @param {string} message modal message
 * @component
 */
-export default function Modal({
-  displayModal,
-  setDisplayModal,
-  messageModal
-}) {
-  const handleDisplay = () => {
+function Modal(_ref) {
+  var displayModal = _ref.displayModal,
+    setDisplayModal = _ref.setDisplayModal,
+    messageModal = _ref.messageModal;
+  var handleDisplay = function handleDisplay() {
     setDisplayModal(!displayModal);
   };
   return /*#__PURE__*/_react.createElement("section", {
@@ -21,5 +30,7 @@ export default function Modal({
   }, /*#__PURE__*/_react.createElement("button", {
     className: "modal-close",
     onClick: handleDisplay
-  }, "X"), /*#__PURE__*/_react.createElement("p", null, messageModal)));
+  }, "X"), /*#__PURE__*/_react.createElement("div", {
+    className: "modal-content"
+  }, /*#__PURE__*/_react.createElement("p", null, messageModal))));
 }
