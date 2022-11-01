@@ -64,7 +64,7 @@ yarn start
 Perhaps better than long paragraphs, here's a quick
 preview of what you could achieve with plugin_modal_p14 in a few lines of code:
 
-| [![Watch the video](https://github.com/Del83/plugin_modal_p14/blob/master/demo_plugin_modal_p14.mov "Video demo"
+[![Watch the video](https://github.com/Del83/plugin_modal_p14/blob/master/demo_plugin_modal_p14.mov)] "Video demo"
 
 ```sh
 import Modal from "../lib/index.js";
