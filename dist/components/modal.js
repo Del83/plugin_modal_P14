@@ -30,7 +30,7 @@ function Modal(_ref) {
   }, /*#__PURE__*/_react.createElement("button", {
     className: "modal-close",
     onClick: handleDisplay
-  }, "X"), /*#__PURE__*/_react.createElement("div", {
+  }, "X"), /*#__PURE__*/_reactt.createElement("div", {
     className: "modal-content"
   }, /*#__PURE__*/_react.createElement("p", null, messageModal))));
 }
