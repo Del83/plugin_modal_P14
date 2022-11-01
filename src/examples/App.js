@@ -18,9 +18,9 @@ export default function App() {
 
   return (
     <div style={{ width: 640, marginTop: "45px" }}>
-      <header>
-        <h1>react-modal</h1>
-        <h2>An accessible React modal dialog component</h2>
+      <header className="modal-header">
+        <h1 className="modal-title">react-modal</h1>
+        <h2 className="modal-description">An accessible React modal dialog component</h2>
       </header>
       <main >
         <button className="button-open" onClick={handleModal}>Open Modal</button>
@@ -30,7 +30,7 @@ export default function App() {
           messageModal={messageModal}
           />
       </main>
-      <footer>
+      <footer className="modal-footer">
         <p>Copyright © 2022 - Plugin created by Delphine Pennehouat</p> 
       </footer>
     </div>
