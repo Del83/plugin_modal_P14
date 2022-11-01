@@ -1,33 +1,25 @@
-body {
+/*-------------------- MODAL --------------------*/
+.modal-body {
     display: flex;
     align-items: center;
     justify-content: center;    
     height: 100vh;       
     background: linear-gradient(90deg, rgba(53,65,5,1) 0%, rgba(115,132,45,1) 10%, rgba(252,252,252,1) 100%);
     color: rgba(0,0,0,0.75);    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Gill Sans", sans-serif;
     text-align: center;
     letter-spacing: 4px;
 }
 
-header {
+.modal-header {
     display: flex;
     flex-direction: column;
 }
 
-h1 {
+.modal-title {
     text-transform: uppercase;
 }
 
-footer {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;   
-    height: 50vh;     
-    font-size: 12px;
-}
-
-/*-------------------- MODAL --------------------*/
 .modal {
     position: fixed;
     z-index: 1;     
@@ -55,7 +47,7 @@ footer {
     height: 200px;
     border-radius: 10px;      
     font-size: 15px; 
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .modal-close {
@@ -75,10 +67,18 @@ footer {
     box-shadow: 0 0.5em 1em rgb(0 0 0 / 18%);          
     border: none;
     border-radius: 10px 30px 10px 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
     letter-spacing: 4px;
-    margin-top: 100px;       
+    margin-top: 120px;       
+}
+
+.modal-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;   
+    height: 50vh;     
+    font-size: 12px;
 }
 
 .display {
