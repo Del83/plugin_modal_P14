@@ -1,6 +1,6 @@
-# Plugin MODAL window
+# MODAL WINDOW PLUGIN
 
-## _React component_
+`React component`
 
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -31,8 +31,6 @@ A simple JavaScript modal component for React Native.
 
 ---
 
-`FRONT-END`
-
 Install all the dependencies :
 
 ```sh
@@ -58,8 +56,6 @@ yarn start
 ### 6. Examples
 
 ---
-
-#### 🎥 Show me!
 
 Perhaps better than long paragraphs, here's a quick
 preview of what you could achieve with plugin_modal_p14 in a few lines of code:
@@ -106,3 +102,13 @@ export default function App() {
   );
 }
 ```
+
+### 7. Props
+
+---
+
+| Label           |    Type    | Required | Default |
+| :-------------- | :--------: | :------: | :-----: |
+| displayModal    |  boolean   |   Yes    |  False  |
+| setDisplayModal | callback() |   Yes    |   N/A   |
+| messageModal    |   string   |   Yes    |   N/A   |
