@@ -2,7 +2,7 @@
   "name": "@del83/plugin_modal_p14",
   "description": "simple modal component",
   "author": "del83",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
