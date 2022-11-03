@@ -6,6 +6,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+![](./demo_plugin_modal_p14_AdobeExpress.gif)
+
 ### 1. Project
 
 ---
@@ -59,8 +61,6 @@ yarn start
 
 Perhaps better than long paragraphs, here's a quick
 preview of what you could achieve with plugin_modal_p14 in a few lines of code:
-
-![](./demo_plugin_modal_p14_AdobeExpress.gif)
 
 ```sh
 import Modal from "../lib/index.js";
