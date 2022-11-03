@@ -62,6 +62,8 @@ preview of what you could achieve with plugin_modal_p14 in a few lines of code:
 
 ![alt text](https://github.com/Del83/plugin_modal_p14/blob/master/demo1.png "demo1")![alt text](https://github.com/Del83/plugin_modal_p14/blob/master/demo2.png "demo2")
 
+![](./demo_plugin_modal.gif)
+
 ```sh
 import Modal from "../lib/index.js";
 import React, { useState } from "react";
